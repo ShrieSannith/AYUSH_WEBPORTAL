@@ -1,0 +1,95 @@
+
+/* Custom styles for the startup cards */
+.body{
+    display: flex   ;
+}
+.startup-card {
+   background-color: black; /* Card background color */
+   padding: 20px;
+   margin: 10px;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   box-sizing: border-box !important;
+}
+
+.startup-title {
+    margin-top: 20px;
+    margin-left: 20px;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.startup-funding {
+    margin-left: 20px;
+   font-size: 18px;
+   font-weight: bold;
+   color: white !important;
+}
+
+.startup-website {
+    margin: top 40px !important;;
+    margin-left: 20px;
+   font-size: 16px;
+   margin-top: 10px;
+   color: #0e7afe !important;
+   text-decoration: underline !important;
+}
+
+.startup-description {
+    margin-left: 20px;
+   font-size: 16px;
+   margin-top: 10px;
+   color: white !important;
+}
+
+.startup-contact {
+    margin-left: 20px;
+   font-size: 16px;
+   margin-top: 10px;
+   margin-bottom: 20px!important;
+   color: white !important;
+   
+}
+
+/* .btn-read-more {
+    margin-top: 20px;
+    margin-left: 20px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+} */
+
+@media (min-width: 768px) {
+   .startup-card {
+       flex-direction: row;
+       text-align: left;
+       height: auto !important;
+   }
+
+   .startup-card .startup-content {
+       flex: 1;
+       padding-left: 20px;
+       text-align: left;
+        /* Ensure proper box sizing */
+   }
+}
+
+.startup-button{
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px!important;
+      padding: 20px;
+      background-color: #d55151;
+      color: white !important;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+}

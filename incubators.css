@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.accordion{
+    background-color: black;
+}
+header {
+    background: none;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #007BFF; /* Set the navigation links text color */
+    transition: color 0.3s ease-in-out; /* Add color transition animation */
+}
+
+/* Hover Effect */
+.nav-links a:hover, .logo a:hover {
+    color: #FFD700; /* Change text color on hover */
+    transform: scale(1.05); /* Add scale animation on hover */
+}
+
+.profile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+h3 {
+    margin-top: 15px;
+    color: #333;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        background-color: black;
+    }
+
+    .profile {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .profile h2 {
+        font-size: 20px; /* Adjust the font size for smaller screens */
+    }
+
+    h3 {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+}

@@ -1,0 +1,51 @@
+#loading_container{
+  display: none; 
+  width: 200px;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.company_container{
+  margin-top: 5%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.new_con{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#chartContainer{
+  height: 300px; 
+  width: 100%; 
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  /* margin-right: auto; */
+}
+
+#table_container{
+  margin-left: auto;
+  margin-top: 5%;
+  width: 100%;
+  margin-right: auto;
+}
+
+#para{
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+#download_data{
+  display: none;
+  margin-top: 20px;
+  margin-left: 42%;
+  margin-right: auto;
+}
+
+/* GODA9IY17YCA5VNR */
